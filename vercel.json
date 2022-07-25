@@ -7,9 +7,6 @@
       }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "index.js"
-      }
-    ]
+  	{"src": "/(.*)","dest": "https://noisy-avatar-c6b.notion.site/CASHMOM-555001f9403f4699abb0f96add27272a/$1"}
+  ]
   }
