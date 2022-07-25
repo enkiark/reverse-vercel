@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "pm2 start index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -16,6 +15,8 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "nodemon": "^2.0.19",
+    "pm2": "^5.2.0",
     "pug": "^2.0.0-beta11"
   },
   "author": "F4RD1N",
